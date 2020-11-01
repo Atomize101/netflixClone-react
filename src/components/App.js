@@ -1,6 +1,7 @@
 import React from 'react'
 import { Global, css, jsx } from '@emotion/core'
 import Navbar from './Navbar'
+import Jumbotron from './Jumbotron'
 
 /**
  * @function App
@@ -9,6 +10,7 @@ const App = () => (
   <>
     <Global styles={GlobalCSS} />
     <Navbar />
+    <Jumbotron />
   </>
 )
 
