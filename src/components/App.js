@@ -1,6 +1,6 @@
 import React from 'react'
 import { Global, css, jsx } from '@emotion/core'
-import reactLogo from '../img/react.png'
+import Navbar from './Navbar'
 
 /**
  * @function App
@@ -8,6 +8,7 @@ import reactLogo from '../img/react.png'
 const App = () => (
   <>
     <Global styles={GlobalCSS} />
+    <Navbar />
   </>
 )
 
