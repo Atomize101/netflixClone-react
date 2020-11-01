@@ -8,11 +8,6 @@ import reactLogo from '../img/react.png'
 const App = () => (
   <>
     <Global styles={GlobalCSS} />
-
-    {/* Delete me, the default .app styles in GlobalCSS, and the reactLogo img import */}
-    <img src={reactLogo} />
-    <h1>Hello Moto.</h1>
-    {/*  */}
   </>
 )
 
@@ -29,20 +24,6 @@ const GlobalCSS = css`
     height: 100%;
     width: 100%;
   }
-
-  // Just to position the react logo on initial startup. Delete this block.
-  .app {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: #282c34;
-
-    h1 {
-      color: white;
-    }
-  }
-  //
 
   a {
     text-decoration: none;
